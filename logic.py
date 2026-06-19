@@ -7,7 +7,8 @@ class Node:
         self.next: Node | None = None
 
 class Stack:
-    """Класс стека на основе одногосвязного списка."""
+    """Класс стека на основе одногосвязного списка,
+    работающая по принципу LIFO (Last In, First Out — «последним пришёл, первым ушёл»)."""
     def __init__(self) -> None:
         self.head: Node | None = None
         self._size: int = 0
